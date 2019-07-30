@@ -16,7 +16,7 @@ Mỗi người sẽ có một folder riêng để upcode lên nhé!!
     * Thành thạo hơn cách sử dụng html, css
     * Làm quen với bootstrap, hiểu được hệ thống class, grid của bootstrap 
   ##### Yêu cầu:
-    * Chọn một trong các mẫu giao diện tại trang landingpage.vn(https://ladipage.vn) và vẽ lại
+    * Chọn một trong các mẫu giao diện tại trang [landingpage.vn](https://ladipage.vn) và vẽ lại
   ##### Hướng dẫn:
     * Sử dụng hệ thống grid của bootstrap để phân chia bố cục
     * F12 để chỉnh sửa css trực tiếp cho phù hợp
