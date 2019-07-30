@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "5b19e30ac2f97263ca61440f",
+        "name": "Diêm Điền - Đông Hưng - Hà Nội",
+        "createdTime": 1528423178111,
+        "updatedTime": 1546679183005,
+        "isDeleted": false,
+        "shortName": "ĐH - HN",
+        "reverseRouteID": "5b19eb4c483d396bbaef0fa6",
+        "driverExp": 15000
+    },
+    {
+        "_id": "5b19e517483d396bbaef0f8f",
+        "name": "Diêm Điền - Tiền Hải - Thái Bình - Hà Nội",
+        "createdTime": 1528423703985,
+        "updatedTime": 1544511771990,
+        "isDeleted": false,
+        "shortName": "TH - HN",
+        "reverseRouteID": "5b19eb930e7d82518c217d6c",
+        "driverExp": 16000
+    },
+    {
+        "_id": "5b19eb4c483d396bbaef0fa6",
+        "name": "Trường Múa - Pháp Vân - Thái Bình",
+        "createdTime": 1528425292271,
+        "updatedTime": 1546679183004,
+        "isDeleted": false,
+        "shortName": "TM - TB",
+        "reverseRouteID": "5b19e30ac2f97263ca61440f",
+        "driverExp": 17000
+    },
+    {
+        "_id": "5b19eb930e7d82518c217d6c",
+        "name": "Gia Lâm - Pháp Vân - Thái Bình",
+        "createdTime": 1528425292271,
+        "updatedTime": 1544511759974,
+        "isDeleted": false,
+        "shortName": "GL - TB",
+        "reverseRouteID": "5b19e517483d396bbaef0f8f",
+        "driverExp": 18000
+    }
+]
