@@ -43,6 +43,17 @@ Mỗi người sẽ có một folder riêng để upcode lên nhé!!
     * tìm hiểu về mysql, mongodb
     * cài đặt server mongodb trên máy
     * tạo ứng dụng lưu thông tin người dùng
+### BT5 - HTTPrequest - jquery ajax
+  ##### Mục tiêu: 
+    * tìm hiểu về http request
+    * học cách sử dụng 
+    * sử dụng mongodb làm bài tập đơn giản
+  ##### Yêu cầu:
+    * Hiểu dc cơ bản về lập trình web, và tạo được server trên máy bằng nodejs, express
+  ##### Hướng dẫn:
+    * tìm hiểu về mysql, mongodb
+    * cài đặt server mongodb trên máy
+    * tạo ứng dụng lưu thông tin người dùng
     
     
     
