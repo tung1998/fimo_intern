@@ -54,6 +54,16 @@ Mỗi người sẽ có một folder riêng để upcode lên nhé!!
     * nắm chắc cú pháp của jquery ajax
     * chú ý về phương thức http
     * chú ý về các 3 cách gửi giữ liệu từ client lên server (body, param, query)
+### BT6 - Tổng hợp - Ôn luyện
+  ##### Mục tiêu: 
+    * nắm vững lại các kiến thức đã tìm hiểu
+    * vận dụng kiến thức làm bài toán thực tế
+  ##### Yêu cầu:
+    * Làm trang admin quản lý sản phẩm
+  ##### Hướng dẫn:
+    * trang admin gồm 2 phần form nhập sản phẩm và bảng thông tin sản phẩm
+    * một sản phẩm thì gồm các trường sau:  name (text), category (select), description (text area), price(number), picture(nâng cao - ai làm đưược có thưởng)
+    * dữ liệu sẻ được lưu ở server database: mongodb
     
     
     
