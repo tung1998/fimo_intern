@@ -123,11 +123,11 @@ console.log(d.greeting);
 ```javascript
 let a = 3;
 let b = new Number(3);
-let c = 3;
+let c = '3';
 
-console.log(a == b);
-console.log(a === b);
-console.log(b === c);
+console.log(a == c);
+console.log(a === c);
+console.log(b === a);
 ```
 
 - A: `true` `false` `true`
@@ -142,27 +142,16 @@ console.log(b === c);
 ###### 8. Ouput là gì?
 
 ```javascript
-class Chameleon {
-  static colorChange(newColor) {
-    this.newColor = newColor;
-    return this.newColor;
-  }
-
-  constructor({ newColor = "green" } = {}) {
-    this.newColor = newColor;
-  }
-}
-
-const freddie = new Chameleon({ newColor: "purple" });
-freddie.colorChange("orange");
+let a = {greeting : 'hello'}
+let b = {}
+console.log(a==b)
+console.log(a===b)
 ```
 
-- A: `orange`
-- B: `purple`
-- C: `green`
-- D: `TypeError`
-
-
+- A: `false` `false`
+- B: `true` `true`
+- C: `true` `false`
+- D: `false` `true`
 
 ---
 
