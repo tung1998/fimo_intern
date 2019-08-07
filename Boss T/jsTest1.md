@@ -143,7 +143,7 @@ console.log(b === a);
 
 ```javascript
 let a = {greeting : 'hello'}
-let b = {}
+let b = {greeting : 'hello'}
 console.log(a==b)
 console.log(a===b)
 ```
