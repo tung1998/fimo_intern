@@ -64,6 +64,7 @@ Mỗi người sẽ có một folder riêng để upcode lên nhé!!
     * trang admin gồm 2 phần form nhập sản phẩm và bảng thông tin sản phẩm
     * một sản phẩm thì gồm các trường sau:  name (text), category (select), description (text area), price(number), picture(nâng cao - ai làm đưược có thưởng)
     * dữ liệu sẻ được lưu ở server database: mongodb
+    * thêm chức năng sửa xóa sản phẩm
     
     
     
