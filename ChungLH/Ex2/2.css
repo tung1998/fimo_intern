@@ -1,0 +1,116 @@
+.chuvang {
+    color: #ffcc19;
+    padding: 64px;
+  }
+  .chutrang {
+    color: white;
+  }
+  .chuhong {
+    color: #b7064d;
+  }
+  .chutim {
+    color: #3a1a2d;
+  }
+  .chutrangdam {
+    color: white;
+  }
+  .top2 {
+    background-color: #bb2855;
+  }
+  .nentim {
+    background-color: #3a1a2d;
+  }
+  .nenvang {
+    background-color: #ffcc19;
+  }
+  .nenhong {
+    background-color: #c24a92;
+  }
+  .nenxam {
+    background-color: #262626;
+    color: aliceblue;
+  }
+  .nenden {
+    background-color: black;
+    color: white;
+  }
+  .nentrang {
+    background-color: white;
+  }
+  .top1 .container {
+    padding-top: 40px;
+  }
+  .top1 h2 {
+    font-weight: 300;
+  }
+  .top1 p {
+    margin-bottom: 35px;
+  }
+  .top2 .col-4 {
+    padding-top: 60px;
+    padding-bottom: 35px;
+  }
+  .top2 .col-8 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 22px;
+  }
+  .top3 .container {
+    padding-bottom: 90px;
+  }
+  .top4 h2 {
+    padding-top: 75px;
+    padding-bottom: 50px;
+  }
+  .top4 .fa-comment-alt {
+    padding: 15px;
+  }
+  .top4 .container {
+    padding-bottom: 90px;
+  }
+  .top5 .card {
+    height: 500px;
+  }
+  .top5 .chuvang {
+    text-align: center;
+    padding: 0px;
+  }
+  .top5 .container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .top6 .container {
+    padding: 100px;
+  }
+  .top6 h2 {
+    padding-bottom: 100px;
+  }
+  .top6 .h4 {
+    padding-top: 40px;
+  }
+  .top7 img {
+    padding-top: 50px;
+  }
+  .top7 .text-center .chuvang {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+  .top7 p {
+    margin-bottom: 30px;
+  }
+  .top7 h6 {
+    padding-bottom: 50px;
+  }
+  .top8 .container {
+    padding: 130px;
+  }
+  .top8 .card-body {
+    max-width: 280px;
+    right: -50px;
+  }
+  .top9 {
+    padding: 40px;
+  }
