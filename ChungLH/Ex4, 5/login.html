@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- LessCSS -->
+  <link rel="stylesheet/less" type="text/css" href="less.less" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+  <!-- icon -->
+  <script src="https://kit.fontawesome.com/667e0541bd.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="d-flex justify-content-center h-100 float-left">
+      <div class="card">
+        <div class="card-header">
+          <h3>Welcome dude</h3>
+          <div class="d-flex justify-content-end social_icon">
+            <span><i class="fab fa-facebook-square"></i></span>
+            <span><i class="fab fa-google-plus-square"></i></span>
+            <span><i class="fab fa-twitter-square"></i></span>
+          </div>
+        </div>
+        <div class="card-body">
+          <div>
+            <div class="input-group form-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-user"></i></span>
+              </div>
+              <input name="email" type="text" id="email" class="form-control" placeholder="email">
+
+            </div>
+            <div class="input-group form-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-key"></i></span>
+              </div>
+              <input name="password" type="password" id="password" class="form-control" placeholder="password">
+            </div>
+            <div class="row align-items-center remember">
+              <input type="checkbox">Remember Me
+            </div>
+            <div id="notification"></div>
+            <div class="form-group">
+              <button class="btn float-right login_btn">Sign in</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <div class="d-flex justify-content-center links">
+            Don't have an account?<a href="./register" class="text-success">Sign Up</a>
+          </div>
+          <div class="d-flex justify-content-center">
+            <a href="#" class="text-danger">Forgot your password?</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Jquery and JS file -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(".btn").click(function () {
+      $.ajax({
+        url: 'home/',
+        type: 'POST',
+        data: {
+          email: $("#email").val(),
+          password: $("#password").val()
+        },
+        success: (data) => {
+          // console.log(data);
+          if (data == "Please check your account") {
+            $("#notification h6").remove();
+            $("#notification").append(`<h6 class="text-warning">Please check your email</h6>`);
+          }
+          else if (data == "OKOK") {
+            $(location).attr('href', './welcome');
+          }
+          else if (data == "The password is incorrect") {
+            $("#notification h6").remove();
+            $("#notification").append(`<h6 class="text-warning">The password is incorrect</h6>`);
+          }
+        }
+      })
+    });
+
+  </script>
+  <script src="./js.js"></script>
+</body>
+
+</html>

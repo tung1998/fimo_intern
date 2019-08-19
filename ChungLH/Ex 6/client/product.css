@@ -1,0 +1,104 @@
+.text-warning{
+    position: relative;
+    left: 50px;
+}
+
+a.navbar-brand.text-warning {
+    position: relative;
+    bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    left: 60px;
+}
+
+span.carousel-control-prev-icon {
+    position: relative;
+    left: 27px;
+}
+
+span.carousel-control-next-icon {
+    position: relative;
+    right: 27px;
+}
+
+#name input {
+    position: relative;
+    /* bottom: 34px; */
+}
+
+#cost input {
+    /* position: relative; */
+    bottom: 23px;
+}
+
+#description input {
+    height: 100px;
+    position:relative;
+    top:10px;
+    width: 100%;
+}
+
+div .merchandise {
+    padding: 35px 25px 15px 25px;
+}
+
+i.fas.fa-edit.float-right.text-primary.updateDescription {
+    position: relative;
+    bottom: 68px;
+}
+
+i.fas.fa-edit.float-right {
+    cursor: pointer;
+    display: none;
+}
+
+input.updateImg {
+    position: relative;
+    /* bottom: 30px; */
+    display: none;
+}
+
+button.btn.btn-warning {
+    position: relative;
+    right: 0px;
+    bottom: 10px;
+}
+
+button.btn.btn-success {
+    position: relative;
+    left: 75px;
+    /* top: 38px; */
+    bottom: 10px;
+    width: 10pxk;
+    width: 75px;
+}
+
+button.btn.btn-danger {
+    position: relative;
+    left: 225px;
+    bottom: 10px;
+}
+
+.pushDown {
+    position: relative;
+    /* top: 81px; */
+    top: 60%;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+body {
+    padding-top: 56px;
+}
+img.img-fluid.modelImg {
+    width: -webkit-fill-available;
+    height: auto;
+}
+.card-img-top{
+    cursor: pointer;
+}
+footer.py-5.bg-dark {
+    margin-top: 20px;
+}
